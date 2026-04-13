@@ -1,0 +1,25 @@
+app/src/main/java/com/example/bhashatranslator/
+├── auth/
+│   ├── LoginActivity.java
+│   └── RegisterActivity.java
+├── data/
+│   ├── model/
+│   │   └── TranslationResponse.java
+│   ├── remote/
+│   │   ├── TranslationApi.java
+│   │   └── RetrofitClient.java
+│   └── repository/
+│       └── TranslationRepository.java
+├── util/
+│   ├── HinglishConverter.java
+│   └── LanguageUtils.java
+├── viewmodel/
+│   └── TranslationViewModel.java
+├── SettingsActivity.java
+└── MainActivity.java
+app/src/main/res/layout/
+├── activity_main.xml
+├── activity_login.xml
+├── activity_register.xml
+└── activity_settings.xml
+app/src/main/AndroidManifest.xml
